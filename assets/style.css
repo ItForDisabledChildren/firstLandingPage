@@ -347,19 +347,84 @@ p, h1, h2, h3, h4, h5 {
 /* RESPONSIVE */
 
 @media screen and (max-width: 1100px) {
+    
+    .text {
+    width: 40%;
+    font-size: 16px;
+    color: #888888;
+}
+    
+    
+    .card{
+        width: 100%;
+        text-align: center;
+    }
+    .card_title {
+        margin: auto;
+    }
+    .card_title_2 {
+        margin: auto;
+    }
+    .card_title_3 {
+        margin: auto;
+    }
+    
+    .photo{
+        width: 45%;
+        background-color: blue;
+        
+    }
     .features {
         background-color: pink;
     }
     .features ul li{
         width: 50%;
     }
+    .contacts, .contacts_info, .maps {
+        background-color: red;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 800px) {
-    .features {
+    
+    .card{
+        width: 100%;
+        text-align: center;
+    }
+    .card_title {
+        margin: auto;
+    }
+    .card_title_2 {
+        margin: auto;
+    }
+    .card_title_3 {
+        margin: auto;
+    }
+    
+    .photo{
+        width: 100%;
+        background-color: blue;
+    }
+    .card_title {
+        margin: auto;
+    }
+    
+    .features, .back-wrap{
         background-color: green;
+        margin-bottom: 1%;
+    }
+    .work_name{
+        margin-top: -15px;
     }
     .features ul li{
         width: 100%;
+    }
+    
+    .contacts, .contacts_info, .maps {
+        background-color: darkorange;
+        width: 100%;
+        text-align: center;
     }
 }
