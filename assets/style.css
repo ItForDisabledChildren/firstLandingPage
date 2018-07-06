@@ -115,7 +115,10 @@ p, h1, h2, h3, h4, h5 {
 
 /*Вторая секция */
 .info {
-    background: url(images/background/back.png) no-repeat center top;
+    background-image: url("images/background/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
     margin: 0 auto;
     padding: 200px 0px;
 }
@@ -141,6 +144,9 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /*Третяя секция */
+.content{
+        margin-top: 100px;
+    }
 .cards {
     display: flex;
     justify-content: center;
@@ -368,6 +374,9 @@ p, h1, h2, h3, h4, h5 {
     .logo{
         margin-left: 2%;
     }
+    .content{
+        margin-top: 50px;
+    }
     
     .text {
     width: 40%;
@@ -379,6 +388,9 @@ p, h1, h2, h3, h4, h5 {
     .card{
         width: 100%;
         text-align: center;
+    }
+    .card_header{
+        margin-bottom: 20px;
     }
     .card_title {
         margin: auto;
@@ -392,25 +404,17 @@ p, h1, h2, h3, h4, h5 {
     
     .photo{
         width: 45%;
-        background-color: blue;
-        
-    }
-    .features {
-        background-color: pink;
     }
     .features ul li{
         width: 50%;
     }
     .contacts, .contacts_info, .maps {
-        background-color: red;
-        
         text-align: center;
     }
 }
 
 @media screen and (max-width: 800px) {
     
-
     .img_mini{
         height: 450px;
     }
@@ -423,10 +427,17 @@ p, h1, h2, h3, h4, h5 {
         margin-left: 2%;
         font-size: 150%;
     }
+    .content{
+        margin-top: 50px;
+    }
     .card{
         width: 100%;
         text-align: center;
     }
+    .card_header{
+        margin-bottom: 20px;
+    }
+    
     .card_title {
         margin: auto;
     }
@@ -436,17 +447,14 @@ p, h1, h2, h3, h4, h5 {
     .card_title_3 {
         margin: auto;
     }
-    
     .photo{
-        width: 100%;
-        background-color: blue;
+        width: 95%;
     }
     .card_title {
         margin: auto;
     }
     
     .features, .back-wrap{
-        background-color: green;
         margin-bottom: 1%;
     }
     .work_name{
@@ -456,9 +464,15 @@ p, h1, h2, h3, h4, h5 {
         width: 100%;
     }
     
-    .contacts, .contacts_info, .maps {
-        background-color: darkorange;
-        margin: 0 auto;
+    .contacts, .maps {
+        width: 100%;
         text-align: center;
+    }
+    .contacts_info{
+        float: none;
+        margin-left: 0;
+    }
+    .maps{
+        float: none;
     }
 }
