@@ -333,6 +333,7 @@ p, h1, h2, h3, h4, h5 {
     color: #888888;
     margin-left: 5%;
     margin-top: 20%;
+    text-decoration: none;
 
 }
 
@@ -427,8 +428,15 @@ p, h1, h2, h3, h4, h5 {
         margin-left: 2%;
         font-size: 150%;
     }
+    .menu_up{
+        margin-top: 10px;
+        margin-left: 20%;
+    }
     .content{
         margin-top: 50px;
+    }
+    .info{
+        padding: 15px 0px;
     }
     .card{
         width: 100%;
@@ -458,7 +466,7 @@ p, h1, h2, h3, h4, h5 {
         margin-bottom: 1%;
     }
     .work_name{
-        margin-top: -15px;
+        margin-top: -5px;
     }
     .features ul li{
         width: 100%;
@@ -471,6 +479,8 @@ p, h1, h2, h3, h4, h5 {
     .contacts_info{
         float: none;
         margin-left: 0;
+        background-color: aliceblue;
+        opacity: 0.6;
     }
     .maps{
         float: none;
